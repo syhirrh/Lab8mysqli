@@ -9,5 +9,5 @@ values ('$_POST[firstname]','$_POST[lastname]','$_POST[email]',
         die('Error: '.mysqli_error());
     }
     echo "1 record successfully added... ";
-
+    
 ?>
