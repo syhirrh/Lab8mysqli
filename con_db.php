@@ -8,7 +8,7 @@ $conn = mysqli_connect (db_host, db_user, db_password, db_name);
 $result = myqli_query($conn, "select * from user");
 while($row = mysqli_fetch_array($result)){
         foreach($row as $key=>$value){
-            echp "$key = $value <br>\n";
+            echo "$key = $value <br>\n";
         }
 }
 mysqli_free_result($result);
